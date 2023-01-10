@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    /* background-color: #6CB19F; */
+    border-bottom: #6CB19F 3px solid;
+}
+
+#header {
+    /* background-color: #6CB19F; */
+}
+
+#carousel {
+    background-color: #6CB19F;
+    /* background-color: rgba(red, green, blue, alpha); */
+
+}
