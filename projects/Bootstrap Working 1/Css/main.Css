@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#364f6b ;
+    color:white;
+}
+.navbar{
+    border-bottom: #3fc1c9 3px solid;
+    opacity: 0.8;
+}
+#home{
+    background-image: url(../img/home4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    min-height: 700px;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background:#000000;
+    opacity: 0.7;
+}
+.home-inner{
+    padding-top: 150px;
+}
+.card.text-center{
+    background: #3fc1c9 ;
+}
+#friends{
+    background: #3fc1c9 ;
+}
+#joinus{
+    background: #3fc1c9 ;  
+}
