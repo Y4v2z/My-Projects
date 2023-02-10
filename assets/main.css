@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    border-bottom: #6CB19F 3px solid;
+}
+
+
+#carousel {
+    background-color: #6CB19F;
+
+}
+
+#carousel .card img {
+    height: 300px;
+}

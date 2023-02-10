@@ -5,57 +5,278 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yavuz AVCİ</title>
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
 </head>
 
-<body>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide w-50">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./assets/img/bg1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    <a href="./projects/Quiz App/index.html" class="btn btn-primary">Go to Project</a>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-                <img src="./assets/img/bg2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="200">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Yavuz AVCİ</a>
+            <button class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#carousel" class="nav-link">My Projects</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </nav>
+    <section id="header" class="bg-dark text-muted py-5">
+        <div class="container mt-5 text-white-50">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/IMG_0685.JPG" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="display-3">Who am I?</h3>
+                    <p class="fs-4 fst-italic">My name is Yavuz AVCİ. I am 31 years old. I graduated from
+                        Hacettepe
+                        University, Department
+                        of Social Work in 2014.
+                        After working in the field of Social Work for about 7 years, I felt that it was
+                        necessary to
+                        open a new page in my life.
+                        I knew that this page definitely had to be software. So, I started doing small
+                        projects
+                        with
+                        Html, Css and JavaScript since 6 months. You can find these projects here that I
+                        have
+                        done
+                        to improve myself .</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide w-50 mx-auto">
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/country.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Country Request From Api Working</h5>
+                            <p class="card-text">This is my Api working. You can select the country that you living with
+                                the
+                                location button or you can search for the country you want. You can
+                                also visit other countries by clicking on the neighboring country flags. Finally, by
+                                clicking on the language link, you can access the countries that speak the same language
+                                in the world.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Country Request From Api Working/index.html"
+                                    class="btn btn-primary d-block" target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/exchange.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Currency Exchange App</h5>
+                            <p class="card-text">You can exchange currency with the rate updated once a day.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Exchange App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/cinema.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cinema Ticket Booking App</h5>
+                            <p class="card-text">A small application of cinema seat reservation system.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Cinema Ticket Booking App/index.html"
+                                    class="btn btn-primary d-block" target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/calculator.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator App</h5>
+                            <p class="card-text">This is a calculator that you can use easily.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Calculator App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/toDo.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ToDo App</h5>
+                            <p class="card-text">Items are added to the task list and deleted. Also these items are
+                                saved in local storage.</p>
+                            <div class="card-footer">
+                                <a href="./projects/ToDoApp/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/course.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Course App</h5>
+                            <p class="card-text">This is a course enrollment program. Course informations are uploaded
+                                to the system, kept in localstorage, if you want can be delete.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Course App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/quiz.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz App</h5>
+                            <p class="card-text">A simple quiz app. Let's see how many questions you will know.</p>
+                            <div class="card-footer">
+                                <a href="./projects/Quiz App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/slider app.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Slider App</h5>
+                            <p class="card-text">This app working slider application dynamically. </p>
+                            <div class="card-footer">
+                                <a href="./projects/Slider App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/website.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Boostrap</h5>
+                            <p class="card-text">This is my firs Boostrap working. </p>
+                            <div class="card-footer">
+                                <a href="./projects/Bootstrap Working 1/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/translator.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Translator App</h5>
+                            <p class="card-text">You can easily use the translation application that I have prepared for
+                                you by working with the API. </p>
+                            <div class="card-footer">
+                                <a href="./projects/Translater App/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="card mb-3">
+                        <div class="card-header text-center">
+                            My Projects
+                        </div>
+                        <img src="./assets/img/game.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hangman</h5>
+                            <p class="card-text">This is my first game project. If you can guess the word correctly, you
+                                can avoid being hanged. </p>
+                            <div class="card-footer">
+                                <a href="./projects/Hangman/index.html" class="btn btn-primary d-block"
+                                    target="_blank">Go to
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
-
+    <footer id="footer" class="text-center py-1 bg-dark text-white-50">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span>Yavuz AVCİ</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./assets/script.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
